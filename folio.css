@@ -1,0 +1,139 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+section{
+    display: flex;
+  padding: 10px 20px;
+    background-color: rgb(160, 93, 223);
+}
+
+.half-width{
+    width: 50%;
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+
+}
+
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 50px ;
+    background-color: rgb(113, 113, 216);
+    border-radius: 10px;
+    background-image: linear-gradient(blue,blueviolet);
+    color: white;
+    font-weight: 600;
+}
+
+
+.parent{
+    display: flex;
+    padding: 0 10%;
+
+}
+
+.child{
+    box-shadow: 10px 10px 30px rgb(44, 24, 24);
+    margin: 2%;
+    padding: 30px;
+    border-radius: 20px;
+
+    border-left: 5px solid rgb(170, 167, 238);
+
+}
+
+.Contact{
+    height: 1000px;
+}
+.Contact h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.Contact p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.Contact-box{
+    background-color: rgb(146, 165, 219);
+    width: 40%;
+    height: 800px;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.Contact-box >input{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 40px
+
+
+}
+.part3{
+    text-align: center;
+}
+
+.Contact-box h2{
+    margin-bottom: 20px;
+    text-align: center;
+
+
+}
+.Contact-box textarea{
+    width: 90%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+}
+.Contact-box >a{
+    padding-left: 50px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(51, 46, 125);
+    border-radius: 8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.635);
+    text-decoration: none;
+   margin-left: 50%;
+
+
+}
+.Contact h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.Contact p{
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 20px;
+}
